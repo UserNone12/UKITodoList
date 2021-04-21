@@ -8,7 +8,7 @@ public class ToDo {
     public ToDo() {
 
     }
-        
+
     //untuk
     public ToDo(String namaToDo, String statusToDo, String idToDo) {
         this.namaToDo = namaToDo;
