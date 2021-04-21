@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:id="@+id/todoitem"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/bg_warna_todo_list">
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="33dp">
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textColor="#F2EAED"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right">
+        <TextView
+            android:id="@+id/tvstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textSize="12sp"
+            android:textColor="#EBF2EA"
+            android:paddingRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"/>
+    </LinearLayout>
+
+</LinearLayout>
